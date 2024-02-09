@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation with Relative Values</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button:first").click(function(){
+              $("div").animate({
+                left: '100px',
+                height: '+=50px',
+                width: '+=50px'
+              });
+            });
+            $("button:last").click(function(){ 
+                $("div").animate({
+                  left: '100px',
+                  width: '-=50px',
+                  height: '-=50px'
+                });
+              });
+          });
+    </script>
+</head>
+<body>
+    <h2>jQuery Animation example</h2>
+    <p>This tutorial is published on beginnersbook.com. Here we will animate the following div block using the animate() method. We will adjust the CSS properties of this block using the animate() method.</p>
+    
+    <button>Animate the block</button>
+    <button>deAnimate the block</button>
+    <div style="background:green; height:80px; width:120px; position:absolute;"></div>
+</body>
+</html>

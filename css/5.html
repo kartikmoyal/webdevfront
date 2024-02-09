@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    
+    .A{
+       
+      width: 100%; 
+      height: 80%;
+      float: left; 
+      position: absolute;
+    }
+
+    .a1 {
+      width: fit-content; 
+      height: fit-content; 
+      padding: 1%; 
+      
+float: left;
+      background-color: black; 
+      border: 5px black solid;
+      animation-name: kartik;
+      animation-duration: 3s; 
+      animation-delay: 1s;
+      animation-timing-function: ease-in-out; 
+      animation-iteration-count: infinite; 
+      
+
+    }
+    @keyframes kartik{
+      0% { transform: scale(0.5);}
+      50% { transform: scale(1); }
+      100% {  transform: scale(.5);}
+    }
+    
+    img {width: 450px;
+    height: 250px;
+  }
+
+    .a2 {width: fit-content;
+      height: fit-content;
+      float: left;
+      padding: 1%;
+      background-color: black;
+      border: 5px black solid;
+      animation-name: hello;
+      animation-duration: 3s;
+      animation-delay: 1s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+    position: relative;
+    }
+
+    @keyframes hello {
+      0% { transform: rotate(-30deg); }
+      50% { transform: rotate(0deg);}
+       100%{transform: rotate(30deg);}
+
+    }
+  </style>
+</head>
+<body>
+  <div class="A">
+    <div class="a2"><img src="nitrr.jpeg"></div>
+    <div class="a1"><img src="nitrr.jpeg"></div>
+    <div class="a2"><img src="nitrr.jpeg"></div>
+
+    <div class="a1"><img src="nitrr.jpeg"></div>
+    <div class="a2"><img src="nitrr.jpeg"></div>
+    <div class="a1"><img src="nitrr.jpeg"></div>
+
+    <div class="a2"><img src="nitrr.jpeg"></div>
+    <div class="a1"><img src="nitrr.jpeg"></div>
+    <div class="a2"><img src="nitrr.jpeg"></div>
+  </div>
+</body>
+</html>

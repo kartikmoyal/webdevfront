@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>focus</title>
+    <script src="jquery-3.7.1.min.js">
+    </script>
+    <script>
+    var count = 0;
+$(document).ready(function(){
+  $("div").scroll(function(){
+    $("span").text( count= count+1);
+  });
+});
+</script>
+</head>
+<body>
+
+<h2>jQuery scroll event example on Beginnersbook.com</h2>
+<div style="border:1px solid grey;width:250px;height:80px;overflow:scroll;">
+I am just writing this text to fill the div box, whenever you scroll inside
+this div box, the scroll count should be displayed below.
+<br>
+The count changes simultaneously as you scroll the div element</div>
+<p>Scroll counter: <span>0</span></p>
+</body>
+</html>

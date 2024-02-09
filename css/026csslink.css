@@ -1,0 +1,35 @@
+body{
+    background-image: url('images.jpeg');
+    background-repeat: repeat-Y;
+
+background-size: auto;}
+
+
+
+.div1{
+    /* background-color:yellow; */
+    border: 5px black solid;
+    color: black;
+     display: block;
+     width: 40%;
+     height: 30%;
+     border-radius: 17px;
+
+}
+.d2{
+    border: 2px black solid;
+    display: block;
+    width: 102%;
+    
+}
+.div2{ 
+    background-color: white;
+    border: black solid;
+    color: black;
+     /* display: block; */
+     display:inline-block;
+position: relative;
+top: 50px;
+left: 30px;
+
+}

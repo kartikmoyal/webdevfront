@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script>
+        function kartik() {
+            confirm("Do you want to confirm this form")
+            alert("successfully submitted");
+        }
+
+        function bgcolor(){
+            document.bgColor="green";
+            document.fgColor="red";
+
+        }
+
+        function mohit(){
+            open("tut1.html","mtwin","width=200,height=300");
+        }
+
+      
+    </script>
+</head>
+<body>
+    <form onsubmit="kartik()">
+        <label for="name">Name</label>
+        <input type="text" id="name" size="15" maxlength="50">
+    
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" size="15" maxlength="50">
+        <br>
+    
+        <label for="password">Password</label>
+        <input type="password" id="password" size="8" maxlength="20">
+        <br>
+    
+        <label for="reenterPassword">Re-enter Password</label>
+        <input type="password" id="reenterPassword" size="8" maxlength="20">
+        <br>
+    
+        <label for="dob">DOB</label>
+        <input type="date" id="dob">
+        <br>
+    
+        <hr>
+        <hr>
+    
+        <input type="radio" name="class" id="class11">
+        <label for="class11">Class 11 </label>
+        <br>
+    
+        <input type="radio" name="class" id="class12">
+        <label for="class12">Class 12</label>
+        <br>
+    
+        <input type="radio" name="class" id="class13">
+        <label for="class13">Class 13</label>
+        <br>
+    
+        <hr>
+        <hr>
+    
+        <input type="checkbox" name="jee" id="jeeMains">
+        <label for="jeeMains">JEE Mains</label>
+        <br>
+    
+        <input type="checkbox" name="jee" id="jeeAdvanced">
+        <label for="jeeAdvanced">JEE Advanced</label>
+        <br>
+    
+        <input type="checkbox" name="neet" id="neet">
+        <label for="neet">NEET</label>
+        <br>
+    
+        <hr>
+        <hr>
+    
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <br>
+    
+        <textarea cols="50" rows="5" placeholder="Enter your message here "></textarea>
+        <br>
+    
+        <label for="selectOptions">Select:</label>
+        <select id="selectOptions">
+            <option value="samyak">Samyak</option>
+            <option value="satyam">Satyam</option>
+            <option value="safaliye">Safaliye</option>
+            <option value="safal">Safal</option>
+        </select>
+        <br>
+        <hr>
+        <label for="selectOptions">gender</label>
+        <select id="selectOptions">
+            <option value="boy"></option>
+            <option value="girl">Satyam</option>
+            <option value="trans">Safaliye</option>
+            <!-- <option value="safal">Safal</option> -->
+         </select>
+    </form>
+    <hr>
+    <hr>
+    <button onclick="bgcolor()">click on the button</button>
+    <input type="submit" value = " submit this form">
+    </form>
+    <button onmouseenter=""></button>
+</body>
+</html> 
+onfocus onsubmit

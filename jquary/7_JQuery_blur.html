@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blur</title>
+    <script src="jquery-3.7.1.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("input").blur(function(){
+              $(this).css("background-color", "pink");
+            });
+          });
+    </script>
+</head>
+<body>
+    <h2>jQuery focus event example on Beginnersbook.com</h2>
+Your Name: <input type="text" name="name"><br>
+Your Age: <input type="text" name="age">
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double click</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("h2,p,button").dblclick(function(){
+            $(this).hide();
+          });
+        });
+        </script>
+</head>
+<body>
+    <h2>jQuery double click event example</h2>
+<p>This example is published on beginnersbook.com. When you double
+click on the heading, paragraph or button, they will be hidden</p>
+<button>Button</button>
+    
+</body>
+</html>
+

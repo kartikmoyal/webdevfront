@@ -1,0 +1,27 @@
+body { background-color: green;
+}
+div{
+    background-color: gray;
+    padding: 50px;
+    border: 5px blue dashed;
+    margin: 100px;
+}
+.p1{
+    padding-left: 15px;
+padding-top: 10px;
+padding-bottom: 20px;
+    border: 5px black solid;
+    color: red ;
+    font-size: medium;
+    height: 20%;
+    -left: ;
+}
+.t1 {
+    margin-left: 17px;
+}
+.t2{
+    margin-left: 15px;
+}
+.t3{
+    margin-left: 22px;
+}

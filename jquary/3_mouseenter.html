@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouseenter</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#para").mouseenter(function(){
+              $(this).slideUp();
+            });
+            $("#pa").mouseenter(function(){
+                $(this).slideUp();
+              });
+              $("#par").mouseenter(function(){
+                $(this).slideUp();
+              });
+          });
+    </script>
+</head>
+<body>
+    
+<h2 id="pa">jQuery mouseenter event example</h2>
+<p id="par">This example is published on beginnersbook.com.</p>
+<p id="para">This paragraph will be hidden with a slideup effect when
+mouse pointer enters on this paragraph.</p>
+<button>Button</button>
+</body>
+</html>

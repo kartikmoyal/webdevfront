@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+              $("div").animate({
+                width: 'toggle'
+              });
+            });
+          });
+    </script>
+</head>
+<body>
+    <h2>jQuery Animation example</h2>
+    <p>This tutorial is published on beginnersbook.com. Here we will animate the following div block using animate() method. We will adjust the CSS properties of this block using animate() method.</p>
+    
+    <button>Animate the block</button>
+   <!-- // <button>deAnimate the block</button> -->
+    <div style="background:green;height:80px;width:120px;position:absolute;"></div>
+</body>
+</html>
